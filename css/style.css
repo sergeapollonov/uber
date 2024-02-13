@@ -1,0 +1,218 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1140px;
+}
+
+nav{
+    height: 50px;
+    z-index: 3;
+    background-color: #212121;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader{
+    /* margin-top: 50px; */
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 87px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.subheader .subheader_logo{
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+.subheader .subheader_official{
+    margin-top: 6px;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.subheader .subheader_call{
+    margin-top: 19px;
+    color: #FFF;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.subheader .subheader_phone{
+    display: block;
+    margin-top: 8px;
+    color: #FFF;
+    text-align: right;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn{
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    border: none;
+    box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.promo{
+    position: relative;
+    margin-top: 50px;
+    z-index: 1;
+    min-height: 800px;
+    background: url('../img/uber_bg.jpg') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+
+}
+
+.promo .promo_header{
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.promo .promo_subheader{
+    margin: 0;
+    margin-top: 22px;
+    color: #FFF;
+    font-size: 36px;
+    line-height: 36px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.promo .promo_dsc{
+    margin-top: 23px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.promo .promo_bth{
+    display: block;
+    margin: 115px auto 0 auto;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    border: none;
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.12) inset;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 63px;
+    text-transform: uppercase;
+}
+
+.advantageas{
+    min-height: 850px;
+    padding: 20px 0 67px 0;
+}
+
+.label{
+    margin: 0 auto;
+    width: 113px;
+    height: 24px;
+    padding: 5px 12px;
+    background-color: black;
+    color: #FFFf;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.titel{
+    margin-bottom: 0;
+    margin-top: 33px;
+    color: #222;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.advantageas .advantages_wrapper{
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.advantageas .advantageas_round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 116px;
+    flex-shrink: 0;
+    background-color: #1EACC7;
+    border-radius: 100%;
+}
+
+.advantageas .advantageas_dsc{
+
+    color: #202020;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+    max-width: 371px;
+    align-self: flex-start;
+}
+
+.advantageas .advantageas_dsc span{
+    color: #1EACC7;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
